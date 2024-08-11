@@ -1,0 +1,124 @@
+body{
+    background: rgb(22, 21, 25);
+}
+.dropdown{
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    background: transparent;
+}
+.btn{
+    border: none;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.dropdown-menu{
+   position: absolute;
+   background: rgb(18, 15, 45);
+   border: none;
+   border-radius: 25px;
+   width:  400px;
+   margin-right: -10px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+}
+.UserPro{
+    display: grid;
+    place-items: center
+}
+.profilePic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.dropdown-item{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+.Username{
+    display: grid;
+    place-items: center;
+    margin: 5px
+}
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(196, 192, 255);
+}
+a{
+    border: solid 1px white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(40, 31, 67);
+    border-radius: 25px;
+  }
+  .grid-item {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+
+  }
+  .grid-itemm {
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+
+  }
+  .grid-item:hover {
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgb(53, 41, 95);
+  }
+  .grid-itemm:hover {
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    background-color:  rgb(53, 41, 95);
+
+  }
+  
+  button{
+    background: none;
+    border: none;
+  }
+  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+}
+.dropdown-item:hover{
+    background: rgb(22, 21, 25);
+    
+    
+}
